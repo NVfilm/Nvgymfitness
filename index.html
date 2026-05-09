@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>NVGymFitness</title>
 
   <link rel="stylesheet" href="style.css">
@@ -10,11 +14,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
-  <!-- NAVBAR -->
 
-  <header>
+  <!-- HERO SECTION -->
+
+  <section class="hero">
+
+    <div class="overlay"></div>
 
     <nav>
 
@@ -28,43 +36,30 @@
 
         <li><a href="#services">Services</a></li>
 
-        <li><a href="#bmi">BMI</a></li>
-
         <li><a href="#gallery">Gallery</a></li>
 
-        <li>
-          <a href="https://wa.me/919310771200" class="nav-btn">
-            Join Now
-          </a>
-        </li>
+        <li><a href="#bmi">BMI</a></li>
 
       </ul>
 
     </nav>
 
-  </header>
 
 
-  <!-- HERO SECTION -->
-
-  <section class="hero">
-
-    <div class="overlay"></div>
-
-    <div class="hero-left">
+    <div class="hero-content">
 
       <h1>
         BUILD YOUR <span>DREAM BODY</span>
       </h1>
 
       <p>
-        Premium gym experience with expert trainers, modern equipment and real body transformation programs.
+        Premium fitness experience with professional trainers, powerful workouts and complete body transformation.
       </p>
 
-      <div class="hero-buttons">
+      <div class="buttons">
 
         <a href="https://wa.me/919310771200" class="btn">
-          Join Membership
+          Join Us
         </a>
 
         <a href="#bmi" class="btn2">
@@ -75,25 +70,13 @@
 
     </div>
 
-
-    <div class="hero-right">
-
-      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop" alt="Deadlift">
-
-    </div>
-
   </section>
+
 
 
   <!-- ABOUT -->
 
   <section class="about" id="about">
-
-    <div class="about-img">
-
-      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1200&auto=format&fit=crop">
-
-    </div>
 
     <div class="about-content">
 
@@ -101,43 +84,23 @@
 
       <p>
 
-        NVGymFitness is a premium transformation gym focused on muscle gain, fat loss, strength training and confidence building.
+        NVGymFitness is a premium transformation gym focused on fat loss, muscle gain and strength training.
 
-        Our expert trainers, powerful workout programs and modern fitness equipment help every member achieve their dream physique.
-
-        We create a motivating atmosphere where fitness becomes a lifestyle.
+        Our expert trainers and modern equipment help members achieve real body transformation with confidence and discipline.
 
       </p>
-
-      <div class="about-boxes">
-
-        <div class="box">
-          <h3>500+</h3>
-          <p>Happy Members</p>
-        </div>
-
-        <div class="box">
-          <h3>8+</h3>
-          <p>Expert Trainers</p>
-        </div>
-
-        <div class="box">
-          <h3>24/7</h3>
-          <p>Support</p>
-        </div>
-
-      </div>
 
     </div>
 
   </section>
 
 
+
   <!-- SERVICES -->
 
   <section class="services" id="services">
 
-    <h2 class="section-title">
+    <h2 class="title">
       Our Services
     </h2>
 
@@ -148,7 +111,7 @@
         <h3>Personal Training</h3>
 
         <p>
-          One-to-one professional training for faster transformation.
+          One-to-one professional coaching.
         </p>
 
       </div>
@@ -159,7 +122,7 @@
         <h3>Weight Loss</h3>
 
         <p>
-          Burn fat with customized fitness programs.
+          Burn fat with advanced workout plans.
         </p>
 
       </div>
@@ -170,7 +133,7 @@
         <h3>Strength Training</h3>
 
         <p>
-          Build stamina, power and muscles effectively.
+          Build stamina, muscles and body power.
         </p>
 
       </div>
@@ -181,7 +144,7 @@
         <h3>Diet Plans</h3>
 
         <p>
-          Nutrition guidance according to your fitness goals.
+          Customized nutrition guidance for your goals.
         </p>
 
       </div>
@@ -191,19 +154,20 @@
   </section>
 
 
+
   <!-- BMI -->
 
   <section class="bmi" id="bmi">
 
-    <div class="bmi-container">
+    <div class="bmi-box">
 
       <h2>
         Calculate Your BMI
       </h2>
 
-      <input type="number" id="height" placeholder="Enter Height in CM">
+      <input type="number" id="height" placeholder="Height in CM">
 
-      <input type="number" id="weight" placeholder="Enter Weight in KG">
+      <input type="number" id="weight" placeholder="Weight in KG">
 
       <button onclick="calculateBMI()">
         Calculate BMI
@@ -216,11 +180,12 @@
   </section>
 
 
-  <!-- HAPPY CUSTOMERS -->
+
+  <!-- GALLERY -->
 
   <section class="gallery" id="gallery">
 
-    <h2 class="section-title">
+    <h2 class="title">
       Happy Gym Customers
     </h2>
 
@@ -243,24 +208,6 @@
   </section>
 
 
-  <!-- CTA -->
-
-  <section class="cta">
-
-    <h2>
-      Transform Yourself Today
-    </h2>
-
-    <p>
-      Join NVGymFitness and become the strongest version of yourself.
-    </p>
-
-    <a href="https://wa.me/919310771200" class="btn">
-      Contact On WhatsApp
-    </a>
-
-  </section>
-
 
   <!-- FOOTER -->
 
@@ -271,7 +218,6 @@
   </footer>
 
 
-  <!-- BMI SCRIPT -->
 
   <script>
 
